@@ -1,0 +1,9 @@
+OPTION(STANDARD_TESTING "Test the standard api modules" OFF)
+
+IF (STANDARD_TESTING)
+    # Config Tests
+    # ADD_EXECUTABLE(ConfigTest ${CMAKE_CURRENT_SOURCE_DIR}/test/Congo.cpp)
+    # TARGET_LINK_LIBRARIES(ConfigTest ${REQUIRED_LIBRARIES})
+    # TARGET_COMPILE_DEFINITIONS(ConfigTest PRIVATE BOOST_TEST_DYN_LINK)
+    # ADD_TEST(TestConfig ConfigTest)
+ENDIF()
