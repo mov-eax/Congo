@@ -2,7 +2,7 @@
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 [![Build Status](https://travis-ci.org/mov-eax/Congo.svg?branch=master)](https://travis-ci.org/mov-eax/Congo)
-[![codecov](https://codecov.io/gh/mov-eax/WSF/branch/master/graph/badge.svg)](https://codecov.io/gh/mov-eax/Congo)
+[![codecov](https://codecov.io/gh/mov-eax/Congo/branch/master/graph/badge.svg)](https://codecov.io/gh/mov-eax/Congo)
 ![C++ Standard](https://img.shields.io/badge/C++%20version-11-blue.svg)
 ![CMake](https://img.shields.io/badge/cmake%20version-3.7-blue.svg)
 

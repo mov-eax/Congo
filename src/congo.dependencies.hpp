@@ -23,11 +23,37 @@
 #include <vector>
 #include <map>
 
-namespace congo { namespace config {
-    mongocxx::instance MongoInstance{};
-    mongocxx::uri uri;
-    mongocxx::pool pool{config::uri};
-    std::string db;
-}   }
+namespace congo {
+    namespace config {
+
+        /*
+        * @mongocxx::instance MongoInstance
+        * The MongoDB instance
+        */
+        mongocxx::instance MongoInstance{};
+
+        /*
+        * @mongocxx::uri uri
+        * The Mongo URI to the database
+        * The default is on localhost
+        */
+        mongocxx::uri uri = "mongodb://localhost:27017";
+
+        /*
+        * @mongocxx::pool pool
+        * The Mongo thread pool
+        * You pass the uri to the pool
+        */
+        mongocxx::pool pool{config::uri};
+
+        /*
+        * @string db
+        * The database to use
+        * The default database is "congo"
+        */
+        std::string db = "congo";
+
+    }
+}
 
 #endif
